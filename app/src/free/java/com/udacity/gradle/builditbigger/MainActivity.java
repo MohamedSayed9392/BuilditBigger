@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        btnJavaToast = (Button) findViewById(R.id.btnJavaToast);
+       /* btnJavaToast = (Button) findViewById(R.id.btnJavaToast);
         btnJavaToast.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 startActivity(new Intent(MainActivity.this,JokeActivity.class).putExtra("joke",jokes.getJoke()));
             }
-        });
+        });*/
         btnBackend = (Button) findViewById(R.id.btnBackend);
         btnBackend.setOnClickListener(new View.OnClickListener() {
             @Override

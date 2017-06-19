@@ -29,7 +29,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/instructions_text_view"
 
-            android:text="Joke From JAVA Lib - Toast" />
+            android:text="Joke From JAVA Lib - Toast"
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/btnJavaAndroid"
@@ -37,7 +38,8 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/instructions_text_view"
 
-            android:text="Joke From JAVA Lib - Android " />
+            android:text="Joke From JAVA Lib - Android "
+            android:visibility="gone" />
 
         <Button
             android:id="@+id/btnBackend"
